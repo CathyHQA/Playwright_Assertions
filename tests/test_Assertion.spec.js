@@ -10,4 +10,5 @@ await page.locator('id=username').fill('student')
 await page.click('id=password')
 await page.locator('id=password').fill('Password123')
 await page.locator('#submit').click()
+//await page.getByRole('menuitem', { name: 'Bags' }).click();
 })
